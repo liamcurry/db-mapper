@@ -1,6 +1,0 @@
-language: node_js
-node_js:
-	- '0.10'
-before_install:
-	- currentfolder=${PWD##*/}
-		- if [ "$currentfolder" != 'db-mapper' ]; then cd .. && eval "mv $currentfolder db-mapper" && cd db-mapper; fi
