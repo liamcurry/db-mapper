@@ -2,6 +2,7 @@ CACHE MANIFEST
 
 
 CACHE:
+de_dust_overhead_2.jpg
 humans.txt
 index.html
 index.html.gz
@@ -17,4 +18,4 @@ robots.txt
 NETWORK:
 *
 
-# hash: 537b3644dae97d161df969ce35a133a28d861f78aa692db98e6a8f05377b6454
+# hash: bef6bd989d5866a4821222443cbd91a430d257718d869b77bb344e3ba5bc298e
