@@ -1,0 +1,58 @@
+{
+	"name": "db-mapper",
+	"version": "0.0.0",
+	"description": "Yeoman generator",
+	"license": "MIT",
+	"main": "app/index.js",
+	"repository": "liamcurry/db-mapper",
+	"author": {
+		"name": "Liam Curry",
+		"email": "liam@curry.name",
+		"url": "https://github.com/liamcurry"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"dependencies": { },
+	"devDependencies": {
+		"better-assert": "*",
+		"chai": "*",
+		"del": "*",
+		"doctest": "*",
+		"glob": "*",
+		"gulp": "*",
+		"gulp-babel": "*",
+		"gulp-awspublish": "*",
+		"gulp-bench": "*",
+		"gulp-browserify": "*",
+		"gulp-csso": "*",
+		"gulp-inject": "*",
+		"gulp-jade": "*",
+		"gulp-jscs": "*",
+		"gulp-jsfmt": "*",
+		"gulp-jshint": "*",
+		"gulp-load-plugins": "*",
+		"gulp-manifest": "*",
+		"gulp-mocha": "*",
+		"gulp-myth": "*",
+		"gulp-notify": "*",
+		"gulp-plumber": "*",
+		"gulp-rename": "*",
+		"gulp-size": "*",
+		"gulp-sourcemaps": "*",
+		"gulp-svgmin": "*",
+		"gulp-svgstore": "*",
+		"gulp-uglify": "*",
+		"gulp-util": "*",
+		"gulp-zopfli": "*",
+		"gulp-gh-pages": "*",
+		"jshint-stylish": "*",
+		"live-server": "*",
+		"svgo": "*"
+	},
+	"scripts": {
+		"build": "./node_modules/.bin/gulp build",
+		"watch": "./node_modules/.bin/gulp watch",
+		"test": "./node_modules/.bin/gulp test"
+	}
+}
